@@ -1,0 +1,27 @@
+game.Workspace.Characters.Starter.ScienceSans.Box:Destroy()
+local swapswap = game.Workspace.Characters.Starter.SwapSwapSans[" "]
+swapswap.Chest.Bandana:Destroy()
+swapswap.Chest.Hood.BrickColor = BrickColor.new("Neon Orange")
+swapswap.Chest.Hood.UsePartColor = true
+swapswap.Chest.LeftArm.BrickColor = BrickColor.new("Neon Orange")
+swapswap.Chest.LeftArm.UsePartColor = true
+swapswap.Chest.RightArm.BrickColor = BrickColor.new("Neon Orange")
+swapswap.Chest.RightArm.UsePartColor = true
+swapswap.Chest.Pockets.BrickColor = BrickColor.new("Neon Orange")
+swapswap.Chest.Pockets.UsePartColor = true
+local boots = swapswap.Leg1:GetChildren()
+for i = 1,#boots do
+if boots[i].Name == "Boot" then
+boots[i].BrickColor = BrickColor.new("Neon Orange")
+boots[i].UsePartColor = true
+end
+local boots = swapswap.Leg2:GetChildren()
+for i = 1,#boots do
+if boots[i].Name == "Boot" then
+boots[i].BrickColor = BrickColor.new("Neon Orange")
+boots[i].UsePartColor = true
+end
+local box = game.Workspace.Characters.Starter.SwapSwapSans.Box
+box.Display.SurfaceGui.NAME.Text = "UnderSwapUnderSwap Sans"
+box.Display.SurfaceGui.AU.Text = "UnderSwapUnderSwap"
+box.Display.SurfaceGui.DESCRIPTION.Text
